@@ -24,7 +24,7 @@ This dataset contains comprehensive information about national parks across the 
 """
 st.markdown(dataset_description)
 st.write('---')
-df = pd.read_csv('https://github.com/arvidhyapriyadarshini/US_National_Parks/blob/main/USNationalPark_Dataset_Cleaned.csv', index_col=False)
+df = pd.read_csv('https://raw.githubusercontent.com/arvidhyapriyadarshini/US_National_Parks/main/USNationalPark_Dataset_Cleaned.csv', index_col=False)
 df = df.drop(columns='Unnamed: 0')
 #st.write(df)
 
