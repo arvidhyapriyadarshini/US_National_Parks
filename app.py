@@ -36,16 +36,16 @@ visitor_count = "92.3 Million"
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.success("Parks")
-    st.markdown("<h2 style='text-align: center;'>{}</h2>".format(park_count), unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>{}</h3>".format(park_count), unsafe_allow_html=True)
 with col2:
     st.success("States")
-    st.markdown("<h2 style='text-align: center;'>{}</h2>".format(state_count), unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>{}</h3>".format(state_count), unsafe_allow_html=True)
 with col3:
     st.success("Land")
-    st.markdown("<h2 style='text-align: center;'>{}</h2>".format(acre_count), unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>{}</h3>".format(acre_count), unsafe_allow_html=True)
 with col4:
     st.success("Visitors")
-    st.markdown("<h2 style='text-align: center;'>{}</h2>".format(visitor_count), unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>{}</h3>".format(visitor_count), unsafe_allow_html=True)
 st.write('---')
 ########################################################################################################################
 #US Map
