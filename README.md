@@ -1,6 +1,7 @@
 # US_National_Parks
 Data Science Projects - Data Visualization
-This project can be accessed live at: https://usnationalparks-arvidhya.streamlit.app
+
+The Dashboard can be accessed at: https://usnationalparks-arvidhya.streamlit.app
 
 Dataset:
 
