@@ -13,7 +13,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Your Streamlit app code here...
 ########################################################################################################################
 st.title('US National Parks Dashboard')
 st.markdown('Hello there! Welcome to explore the US National Park Dataset')
