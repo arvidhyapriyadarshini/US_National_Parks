@@ -29,9 +29,9 @@ df = df.drop(columns='Unnamed: 0')
 
 # Define the values for the cards
 park_count = "63 Parks"
-state_count = "50 States"
-acre_count = "8 Million Acres"
-visitor_count = "150000"
+state_count = "30 States"
+acre_count = "52.4 Million Acres"
+visitor_count = "92.3 Million"
 # Create the boxes with centered metrics
 col1, col2, col3, col4 = st.columns(4)
 with col1:
