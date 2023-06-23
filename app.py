@@ -98,8 +98,8 @@ fig_usmap.update_layout(
 #######################################################################################################################
 #Bar Chart_Acres
 # Add the sidebar
-st.sidebar.title("Data Chef")
-st.sidebar.subheader("Vidhya Radhakrishnan")
+st.sidebar.title("@DataScienceChef")
+st.sidebar.markdown("Vidhya Radhakrishnan")
 st.sidebar.markdown("Hi there! Welcome to my dashboard, explore the details about the US Nation Park here! Happy Summer!")
 
 # Get user input for the number of parks to compare from the sidebar
