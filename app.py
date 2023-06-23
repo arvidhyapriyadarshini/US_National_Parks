@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
+import re
 
 # Change the page configuration
 st.set_page_config(
@@ -26,7 +27,7 @@ st.write('---')
 df = pd.read_csv('https://raw.githubusercontent.com/arvidhyapriyadarshini/US_National_Parks/main/USNationalPark_Dataset_Cleaned.csv', index_col=False)
 df = df.drop(columns='Unnamed: 0')
 #st.write(df)
-
+df['Description'] = df['Description'].str.replace(r'\[.*$', '', regex=True)
 # Define the values for the cards
 park_count = "63 Parks"
 state_count = "30 States"
